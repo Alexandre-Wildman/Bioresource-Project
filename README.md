@@ -1,9 +1,8 @@
 # Bioresource-Project
 A nice example of a bioresource engineering project
 
-
-
 This system uses 3 DHT22 sensors, which measure temperature and relative humidity (RH). These sensors are comprised of a resistive humidity sensor, a NTC thermistor and an integrated circuit (IC). The temperature and measurement range are respectively, -40-125 °C ± 0.5 °C and 1-100% ± 2-10% (Dejan, n.d.). The temperature range over a 24-hour period in a greenhouse ideally range between about 18 °C to 24 °C with humidity ranging from about 50-70%. So, DHT22 sensors will comfortably cover the environment range in question. 
+
 
 The working principle of both temperature and humidity will be outlined. Resistive humidity sensors are used which measure the electrical conductivity, or resistance, across a non-metal substance between two electrodes (Dejan, n.d.). As the humidity changes in the environment, the non-metal substance will absorb or release water vapor, affecting its conductivity of the material. This material is often a solid polyelectrolyte or conductive polymer (Anusha, 2017). The measured resistance is outputted to the IC, which processes the data and sends the digital output to the microcontroller, in our case an Arduino Uno. The relationship between the RH of the environment and the resistivity will vary based on the material, but generally there is an inverse exponential relationship between the resistance and RH (Fujimoto, Maeda. 2000).  
 
