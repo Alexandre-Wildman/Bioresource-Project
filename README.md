@@ -1,5 +1,6 @@
 # Bioresource-Project
 A nice example of a bioresource engineering project
+
 This system uses 3 DHT22 sensors, which measure temperature and relative humidity (RH). These sensors are comprised of a resistive humidity sensor, a NTC thermistor and an integrated circuit (IC). The temperature and measurement range are respectively, -40-125 °C ± 0.5 °C and 1-100% ± 2-10% (Dejan, n.d.). The temperature range over a 24-hour period in a greenhouse ideally range between about 18 °C to 24 °C with humidity ranging from about 50-70%. So, DHT22 sensors will comfortably cover the environment range in question. 
 
 
